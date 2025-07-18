@@ -4,10 +4,10 @@
 import streamlit as st
 st.set_page_config(layout="wide")
 
-st.title("\ud83d\udd7a AI Avatar: manchild - Elon Musk")
+st.title("AI Avatar: manchild - Elon Musk")
 st.video("out_elon_manchild/final.mp4")
 
-st.markdown("👉 拖曳下方視差圖模擬裸眼3D")
+st.markdown("拖曳下方視差圖模擬裸眼3D")
 st.image(["left.png", "right.png"], width=400)
 
 # WebGL Viewer
