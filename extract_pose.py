@@ -9,7 +9,7 @@ import json
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
 
-cap = cv2.VideoCapture("manchild.mp4")
+cap = cv2.VideoCapture("Manchild - Sabrina Carpenter.mp4")
 os.makedirs("output_pose", exist_ok=True)
 frame_id = 0
 
