@@ -1,0 +1,7 @@
+streamlit
+rembg
+Pillow
+opencv-python
+mediapipe
+icrawler
+numpy

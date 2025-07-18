@@ -1,0 +1,15 @@
+genAI_avatar-/
+├── app.py                            # Streamlit 展示頁
+├── fetch_pics.py                     # 人物圖像爬蟲
+├── preprocess.py                     # 去背處理
+├── extract_pose.py                   # MediaPipe 動作序列提取
+├── animation.py                      # 動畫合成調用（需 inference.py）
+├── generate_3d.py                    # 裸眼3D圖生成
+├── requirements.txt                  # 📦 Python 套件
+├── 3dviewer/
+│   └── index.html                    # WebGL 視差拖曳頁面
+├── output_pose/                      # MediaPipe 輸出
+├── processed_elon/                   # 背景去除圖
+├── out_elon_manchild/                # 最終動畫影片
+└── images/
+    └── elon_musk/                    # 原始人物圖片
